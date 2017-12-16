@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+}
+td {
+  border-right: 1px solid blue
+}
+h1 {
+  color: white;
+  background: orange;
+}
+.header{
+  margin-top:30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/**/
