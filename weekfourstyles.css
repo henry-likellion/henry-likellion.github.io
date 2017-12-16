@@ -1,0 +1,69 @@
+*{
+  margin: 0;
+  box-sizing: Border-box;
+}
+/*always pu thisat the beginning of a stylesheet*/
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+image{
+  width: 300px;
+  height: 300px;
+}
+
+.brand{
+  float: left;
+}
+
+.gnb{
+  float: right;
+  list-style-type: none;
+}
+
+ul.gnb> li {
+  float: left;
+  padding-left: 30px;
+}
+
+ul.gnb > li > a{
+  text-decoration: none;
+  color: black;
+}
+
+.header::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*fixing a bloken layout*/
+
+.landing{
+  height: 600px;
+  background-image: url(images/landing_img.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+.landing-title{
+  padding-top: 150px;
+  padding-bottom: 40px;
+  font-size: 60px;
+}
+
+h3{
+  color: red;
+  background:skyblue;
+}
+h1{
+  color: skyblue;
+  background:red;
+}
+
+.pokemon_species {
+  float: left;
+  width: 300px;
+}
