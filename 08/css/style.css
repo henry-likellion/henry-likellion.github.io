@@ -1,0 +1,67 @@
+html {
+  font-family: 'Lato', sans-serif;
+  color: #fff;
+}
+
+body {
+  padding: 30px 0;
+}
+
+/*
+flex-direction = row (default), row-revearse,
+column, column-revearse
+
+<main axis>justify-content = flex-start , center, space-between,  space-around
+
+<cros axis>align-item = flex-start, center, flex-end
+*/
+
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: centre;
+  /*display: flex;
+  flex-direction: row;
+  justice-contaent: centre;
+  flex-wrap: wrap;*/
+  width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  background-color: #ecedef;
+}
+
+/*
+  static = default position value (top, bottom, right, left)
+
+  relative = only the one who applies changes changes the positions while all the other elements stay the same
+
+  absolute = ignore all static elements, moves based on non-static elements.
+
+  fixed = position changes based on the entire web page
+
+  note = each component loses it original position EXCEPT for relative
+*/
+
+.child {
+  width: 200px;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+
+}
+.red {
+  background-color: #e74c3c;
+
+  /*float: left;*/
+  /*order: 3; */
+}
+.yellow {
+  background-color: #f1c40f;
+  /*float: left;*/
+  /*order: 1;*/
+}
+.blue {
+  background-color: #0066ff;
+  /*order: 2;*/
+  /*float: left;*/
+}
