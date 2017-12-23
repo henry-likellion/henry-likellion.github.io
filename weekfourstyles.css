@@ -67,3 +67,12 @@ h1{
   float: left;
   width: 300px;
 }
+
+#some_pokemon::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+/*.footer {
+  float: right;
+}*/
