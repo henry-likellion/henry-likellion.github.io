@@ -42,7 +42,6 @@ ul.gnb > li > a{
 
 .landing{
   height: 600px;
-  background-image: url(images/landing_img.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   text-align: center;
@@ -52,6 +51,10 @@ ul.gnb > li > a{
   padding-top: 150px;
   padding-bottom: 40px;
   font-size: 60px;
+}
+
+p{
+  padding-bottom: 150px;
 }
 
 h3{
