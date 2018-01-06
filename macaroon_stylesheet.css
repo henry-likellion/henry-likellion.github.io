@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  box-sizing: Border-box;
+}
+
+.landing-title{
+  padding-top: 150px;
+  padding-bottom: 40px;
+  font-size: 60px;
+  text-align: center;
+}
+
+.landing-p{
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.establisher{
+  background-color: skyblue;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.How{
+  background-color: pink;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.what{
+  background-color: orange;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.ludree{
+  
+}
+
+.footer{
+  padding-left: 35px;
+}
+
+
+.index{
+  padding-bottom: 20px;
+}
+
+h3,p{
+  padding-left: 20px;
+}
