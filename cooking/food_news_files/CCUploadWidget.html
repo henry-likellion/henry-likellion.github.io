@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0106)https://widgets.celljournalist.com/Widgets/CCUploadWidget.aspx?PartitionId=629&ChannelId=15025&ContestId=0 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+</title><meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" name="viewport">
+    <script src="./jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+            var $cjq = jQuery;
+    </script>
+
+    <!-- Bootstrap JS and CSS -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <script src="./bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS and CSS End -->
+
+    <link rel="stylesheet" href="./font-awesome.min.css">
+    
+    <link type="text/css" href="https://widgets.celljournalist.com/Widgets/CCUploadWidget.aspx?PartitionId=629&amp;ChannelId=15025&amp;ContestId=0" rel="stylesheet">
+    </head>
+<body>
+    <form method="post" action="https://widgets.celljournalist.com/Widgets/CCUploadWidget.aspx?PartitionId=629&amp;ChannelId=15025&amp;ContestId=0" id="form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTcxNjg3MjMxMGRklRj+N1x1RuZck+sIAE3EXuYb3/c=">
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9AC12F01">
+        
+    <button id="cjUploadTrigger" onclick="showUploadForm()" type="button" class="btn btn-success" title="Upload your photos or videos"><span class="fa fa-upload"></span> Upload</button>
+
+
+        
+    <script type="text/javascript">
+        function showUploadForm() {
+            var _partitionId = 629;
+            var _contestId = 0;
+            var _channelId = 15025;
+            var _uploadWidgetDomain = 'upload.celljournalist.com';
+            var _url = '//' + _uploadWidgetDomain + '/Upload?PartitionId=' + _partitionId;
+            if (_contestId != undefined && _contestId != null) {
+                _url += '&ContestId=' + _contestId;
+            }
+
+            if (_channelId != undefined && _channelId != null) {
+                _url += '&ChannelId=' + _channelId;
+            }
+
+            var engine = new CCUploadWidgetEngine(_url);
+            engine.OpenModal();
+        }
+
+        var CCUploadWidgetEngine = function(_url) {
+
+            this.OpenModal = function () {
+                var modalData = PrepareModalData(_url);
+                var message = { handler: 'CreateModalFrame', data: modalData };
+                window.parent.postMessage(message, '*');
+            };
+
+            var PrepareModalData = function (_url) {
+                var modalData = {
+                    type: 'url',
+                    url: _url
+                };
+
+                return modalData;
+            };
+        }
+    </script>
+
+    </form>
+
+
+</body></html>

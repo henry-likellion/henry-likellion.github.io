@@ -1,0 +1,12 @@
+    .mediaplayerwrapper.popePlaya {width: 300px; height: 168px; margin-top: 5px}
+
+.columnsplitter h4.popeTitle{text-transform: none; color: #006699; margin: 5px 0; padding: 0; text-align: center; line-height: 1.2}
+
+p.popeText {font-size: 12px; margin: 5px 0; padding: 0; text-align: center; line-height: 1.2}
+
+.pope-group.budget .full-wrap {width: 520px; margin: 0 auto}
+
+.liveSched {margin-top: -6px}
+
+
+

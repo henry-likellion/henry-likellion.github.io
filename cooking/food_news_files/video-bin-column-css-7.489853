@@ -1,0 +1,4 @@
+    .videoPlayListContainer{border-top: 2px solid #0b6d9d; padding-top: 10px;}
+.videoPortalCurrentClip {vertical-align: top;}
+.dc .localEd {margin-right: 0.5em;}
+

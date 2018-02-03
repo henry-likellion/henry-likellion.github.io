@@ -1,0 +1,3 @@
+    .tvListings div.bottom-links .da, .tvListings .element span.da {
+    background-position: 0 55%!important;
+}

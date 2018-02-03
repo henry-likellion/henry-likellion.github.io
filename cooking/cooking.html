@@ -7,13 +7,37 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <style>
+      .landing {
+        margin-top: 30px;
+      }
+
+      .landing-title{
+        padding-top: 150px;
+        padding-bottom: 40px;
+        font-size: 60px;
+        text-align: center;
+      }
+
+      .landing-p{
+        padding-bottom: 35px;
+        text-align: center;
+      }
+
+      #cardone {
+        width: 100%;
+      }
+
+
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <a class="navbar-brand" href="#" style="colour:pink;">Cooking</a>
+      <a class="navbar-brand" href="#" style="color:pink;">Cooking</a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item active">
@@ -53,10 +77,10 @@
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <a class="dropdown-item" href="cooking_snacks_q&e.html">Quick and Easy</a>
-              <a class="dropdown-item" href="#">Simple with Style</a>
-              <a class="dropdown-item" href="#">Kids</a>
-              <a class="dropdown-item" href="#">Healthy</a>
-              <a class="dropdown-item" href="#">Sides</a>
+              <a class="dropdown-item" href="cooking_snacks_s&s.html">Simple with Style</a>
+              <a class="dropdown-item" href="cooking_snacks_kids.html">Kids</a>
+              <a class="dropdown-item" href="cooking_snacks_healthy.html">Healthy</a>
+              <a class="dropdown-item" href="cooking_snacks_sides.html">Sides</a>
             </div>
           </li>
 <!-- navbar "snacks" dropdown link ends-->
@@ -67,16 +91,59 @@
               Drinks
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Quick and Easy</a>
-              <a class="dropdown-item" href="#">Simple with Style</a>
-              <a class="dropdown-item" href="#">Kids</a>
+              <a class="dropdown-item" href="cooking_drinks_q&e.html">Quick and Easy</a>
+              <a class="dropdown-item" href="cooking_drinks_s&s.html">Simple with Style</a>
+              <a class="dropdown-item" href="cooking_drinks_kids.html">Kids</a>
             </div>
           </li>
 <!-- navbar "desserts" dropdown link ends-->
-
-
         </ul>
       </div>
     </nav>
+
+<!-- header starts -->
+    <div class="landing">
+      <div class="container" style="background-image: url(https://www.laduree.fr/Imagestorage/images/2560/1600/5a1e9142666bf_Laduree_Home_V4.jpg)">
+        <h2 class="landing-title">Cooking</h2>
+        <p class="landing-p">Cooking is delicious. Cooking is creative. Cooking is You.</p>
+      </div>
+    </div>
+<!-- header ends -->
+
+<!-- news item start -->
+    <div class="container">
+      <div class="card mb-3" id="cardone">
+        <img class="card-img-top" src="cooking_images/vegi.jpg" alt="vegi" height="200px;" width="100%;">
+        <div class="card-block" margin-left="20px;">
+        <h4 class="card-title"><a href="food_news.htm" class="btn btn-primary">News</a></h4>
+        <p class="card-text">World food prices up 8.2 per centin 2017: UN</p>
+        <p class="card-text"><small class="text-muted">go to CTV News</small></p>
+        </div>
+      </div>
+    </div>
+<!-- news item ends -->
+
+  <div class="container">
+    <div class="row">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="..." alt="Card image cap">
+        <div class="card-block">
+          <h4 class="card-title">Card title</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   </body>
 </html>

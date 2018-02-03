@@ -1,0 +1,9 @@
+    .li-divider .linklist.vertical li {padding-left: 10px}
+.li-divider .linklist.vertical li a {padding-right: 7px}
+.li-divider .vertical .comment-video a.smallCount {padding-right: 0}
+.li-divider  .linklist li .comment-video {margin-left: -2px}
+.listHorizontal .list h3 {padding-bottom: 0}
+.listHorizontal .connect h3 {padding-bottom: 0.4em}
+.listHorizontal .linklist.vertical li {margin: 0}
+.listHorizontal .linklist li {background-position: 0 0.54em}
+
